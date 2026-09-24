@@ -1,0 +1,28 @@
+# Виртуальное окружение
+venv/
+env/
+.venv/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Модели (большие файлы — не заливаем в Git)
+jarvis/
+*.onnx
+*.tar
+*.tar.bz2
+
+# Временные файлы
+*.wav
+*.mp3
+temp*
+
+# IDE
+.vscode/
+.idea/
+
+# Секреты
+.env
+secrets.txt
